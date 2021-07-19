@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Students: Please use this week's project for Week 11: Assignment 9: Basic Data Visualization. 
+     You will need to replace the contents of this HTML file with your own work, 
+     and create any other files, if any, required for the assignment.
+     When you are done, be certain to submit the assignment in both Repl.it and Canvas to be graded. -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CS50C Week11</title>
+    <style>
+      #c1
+      {
+        margin-left: 60px;
+        border: dashed 1px black;
+        padding: 20px;
+      }
+      #c2
+      {
+        padding:20px;
+      }
+      </style>
+  <script src="//code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  </head>
+  <body onload="loadJSON();">
+    <canvas id="c1" width="500" height="500"></canvas>
+    <canvas id="c2" width="500" height="500"></canvas>
+    <script type="text/javascript" src="bar.json"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
